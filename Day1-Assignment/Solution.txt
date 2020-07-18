@@ -1,0 +1,28 @@
+What is your understanding of Blockchain?
+	- The technique/concept which is used in decentralised manner along with security using cryptography to perform some transaction
+	- Blockchain: The inter connection of each Block in continuous sequence containing transaction data which cannot be update/delete and each Block depend on the previous block in the sequence
+What is the core problem Blockchain trying to solve?
+	> The problem which arises in the use of internet is solved by Blockchain like:
+	  - Security
+	  - Authenticity
+	  - Trusted Third Party
+	> The Data provided on Internet does not assure whether it is valid or not , it's    authenticity can't be proved
+	> The Large Network of Internet comprises of huge number of Third party associations for it's use which might not be completely trusted
+What are the few features which Blockchain will give you?
+	> Features provided by Blockchain are:
+		- Immutable: Data can't be lost, unchangeable
+		- Verifiable: All transaction data in distributed network are verified with the help of Block Digital Signature(with the help of cryptography) maintained at individual's DB
+		- Unchangeable		
+		- Tamper-Proof: The Block Digital Signature will be same for every individual having it. Even single modification will change the Signature of Block content which will be easily recognisable by other individual in Distributed network
+What all things does a Block contain?
+	> Block number
+	> Transaction record's
+	> Previous Block Signature
+	> Mining Key
+How is the verifiability of Blockchain has been attained?
+	> Every Block in Blockchain will have a unique Digital Signature based on content
+	> The Signature of each Block will be in the form of:
+		- Current Signature = Previous Block Security + Current Transaction Record
+	> At any given point of time the uniqueness of each Block won't change
+	> Since the all Block are replicated in Distributed Network, even if one tries to tamper the Block Content locally will affect the Signature of all Blocks in sequence
+	> When refering the same signature which differ from same replicated block in Network can be easily recognised and verified from other copies of block
